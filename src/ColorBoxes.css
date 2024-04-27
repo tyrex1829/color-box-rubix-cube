@@ -1,6 +1,6 @@
 .ColorBoxes {
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     border: 1px solid black;
     display: flex;
 }

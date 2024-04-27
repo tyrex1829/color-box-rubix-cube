@@ -1,8 +1,13 @@
 import ColorBox from './ColorBox';
+import './ColorBoxes.css';
 
 function ColorBoxes ({ colors }) {
     return (
-        <div>
+        <div className="ColorBoxes">
+            <ColorBox colors={colors}/>
+            <ColorBox colors={colors}/>
+            <ColorBox colors={colors}/>
+            <ColorBox colors={colors}/>
             <ColorBox colors={colors}/>
         </div>
     );

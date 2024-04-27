@@ -16,7 +16,7 @@ function ColorBox ({ colors }) {
     return (
         <div 
             onClick={changeColor} 
-            style={{ backgroundColor: color, height: "50px", width: "50px", borderRadius: "5px" }}
+            style={{ backgroundColor: color, height: "100px", width: "100px", borderRadius: "5px" }}
         ></div>
     )
 }
