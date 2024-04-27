@@ -1,8 +1,11 @@
 import ColorBox from './ColorBox';
 
-export default function ColorBoxes ({ colors }) {
+function ColorBoxes ({ colors }) {
     return (
-        <ColorBox />
-    )
-    
+        <div>
+            <ColorBox colors={colors}/>
+        </div>
+    );
 }
+
+export default ColorBoxes;
